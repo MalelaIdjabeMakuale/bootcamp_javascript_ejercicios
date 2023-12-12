@@ -3,6 +3,7 @@
 // Finalmente, imprime el array resultante.
 
 const fruits = ["Strawberry", "Banana", "Orange", "Apple"];
+
 const foodSchedule = [
   { name: "Salad", isVegan: true },
   { name: "Salmon", isVegan: false },
@@ -11,3 +12,11 @@ const foodSchedule = [
   { name: "Rice", isVegan: true },
   { name: "Pasta", isVegan: true },
 ];
+
+let siguienteFruta = 0;
+for (let i = 0; i < foodSchedule.length; i++) {
+  if (!foodSchedule[i].isVegan) {
+    foodSchedule[i].name = fruits[siguienteFruta++];
+  }
+}
+console.log(foodSchedule);

@@ -8,10 +8,10 @@ const users = [
 
 for (const user of users) 
     if (user.years < 18) {
-      console.log("Usuario menor de edad: " + user.name);
+      console.log("Usuario menor de edad: ", user.name);
   }
 
   for (const user of users) 
   if (user.years >= 18) {
-    console.log("Usuario mayor de edad: " + user.name);
+    console.log("Usuario mayor de edad: ", user.name);
 }
