@@ -1,4 +1,3 @@
-for (let index = 0; index  <= 9; index++) {
-    console.log(index);
-  }
-  
+for (let i = 0; i <= 9; i++) {
+  console.log(i);
+}
