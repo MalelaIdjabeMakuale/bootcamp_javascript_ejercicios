@@ -12,5 +12,5 @@ const exams = [
     {name: 'Ayumi Hamasaki', score: 4},
     {name: 'Robert Kiyosaki', score: 2},
     {name: 'Keanu Reeves', score: 10}
-];
+
 ```

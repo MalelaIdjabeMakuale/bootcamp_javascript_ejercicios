@@ -7,6 +7,7 @@ Dado el siguiente html usa querySelector para mostrar por consola el botón con 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="./exercise-1.html" defer></script>
     <title>Document</title>
 </head>
 <body>
